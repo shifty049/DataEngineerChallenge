@@ -151,7 +151,7 @@ class DataAnalysis(object):
                 self.engaged_time[sum(self.average_time_dict[IP])].append(IP)
 
         longest_session_time=max(self.engaged_time.keys()) 
-        most_engaged_users_list=self.engaged_time[longest_session_time],   
+        most_engaged_users_list=self.engaged_time[longest_session_time] 
         # return the user with the longest duration of all sessions
         return most_engaged_users_list,longest_session_time  
 
